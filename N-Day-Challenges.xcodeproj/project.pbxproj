@@ -24,6 +24,7 @@
 		941D1DB425192AE900AE9399 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D1DB325192AE900AE9399 /* NotificationController.swift */; };
 		941D1DB625192AE900AE9399 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D1DB525192AE900AE9399 /* ComplicationController.swift */; };
 		941D1DB825192AEB00AE9399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 941D1DB725192AEB00AE9399 /* Assets.xcassets */; };
+		941D1DDB25192B6D00AE9399 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D1DDA25192B6D00AE9399 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +110,7 @@
 		941D1DB725192AEB00AE9399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		941D1DB925192AEB00AE9399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		941D1DBA25192AEB00AE9399 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		941D1DDA25192B6D00AE9399 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 				941D1D7425192AE200AE9399 /* AppDelegate.swift */,
 				941D1D7625192AE200AE9399 /* SceneDelegate.swift */,
 				941D1D7825192AE200AE9399 /* ViewController.swift */,
+				941D1DDA25192B6D00AE9399 /* Utils.swift */,
 				941D1D7A25192AE200AE9399 /* Main.storyboard */,
 				941D1D7D25192AE500AE9399 /* Assets.xcassets */,
 				941D1D7F25192AE500AE9399 /* LaunchScreen.storyboard */,
@@ -414,6 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941D1DDB25192B6D00AE9399 /* Utils.swift in Sources */,
 				941D1D7925192AE200AE9399 /* ViewController.swift in Sources */,
 				941D1D7525192AE200AE9399 /* AppDelegate.swift in Sources */,
 				941D1D7725192AE200AE9399 /* SceneDelegate.swift in Sources */,
