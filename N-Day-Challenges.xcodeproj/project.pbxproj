@@ -1,0 +1,895 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		941D1D7525192AE200AE9399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D1D7425192AE200AE9399 /* AppDelegate.swift */; };
+		941D1D7725192AE200AE9399 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D1D7625192AE200AE9399 /* SceneDelegate.swift */; };
+		941D1D7925192AE200AE9399 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D1D7825192AE200AE9399 /* ViewController.swift */; };
+		941D1D7C25192AE200AE9399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941D1D7A25192AE200AE9399 /* Main.storyboard */; };
+		941D1D7E25192AE500AE9399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 941D1D7D25192AE500AE9399 /* Assets.xcassets */; };
+		941D1D8125192AE500AE9399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941D1D7F25192AE500AE9399 /* LaunchScreen.storyboard */; };
+		941D1D8C25192AE600AE9399 /* N_Day_ChallengesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D1D8B25192AE600AE9399 /* N_Day_ChallengesTests.swift */; };
+		941D1D9725192AE600AE9399 /* N_Day_ChallengesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D1D9625192AE600AE9399 /* N_Day_ChallengesUITests.swift */; };
+		941D1D9C25192AE600AE9399 /* N-Day-Challenges WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 941D1D9B25192AE600AE9399 /* N-Day-Challenges WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		941D1DA225192AE600AE9399 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941D1DA025192AE600AE9399 /* Interface.storyboard */; };
+		941D1DA425192AE800AE9399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 941D1DA325192AE800AE9399 /* Assets.xcassets */; };
+		941D1DAB25192AE900AE9399 /* N-Day-Challenges WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 941D1DAA25192AE900AE9399 /* N-Day-Challenges WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		941D1DB025192AE900AE9399 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D1DAF25192AE900AE9399 /* InterfaceController.swift */; };
+		941D1DB225192AE900AE9399 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D1DB125192AE900AE9399 /* ExtensionDelegate.swift */; };
+		941D1DB425192AE900AE9399 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D1DB325192AE900AE9399 /* NotificationController.swift */; };
+		941D1DB625192AE900AE9399 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D1DB525192AE900AE9399 /* ComplicationController.swift */; };
+		941D1DB825192AEB00AE9399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 941D1DB725192AEB00AE9399 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		941D1D8825192AE600AE9399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 941D1D6925192AE100AE9399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 941D1D7025192AE200AE9399;
+			remoteInfo = "N-Day-Challenges";
+		};
+		941D1D9325192AE600AE9399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 941D1D6925192AE100AE9399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 941D1D7025192AE200AE9399;
+			remoteInfo = "N-Day-Challenges";
+		};
+		941D1D9D25192AE600AE9399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 941D1D6925192AE100AE9399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 941D1D9A25192AE600AE9399;
+			remoteInfo = "N-Day-Challenges WatchKit App";
+		};
+		941D1DAC25192AE900AE9399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 941D1D6925192AE100AE9399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 941D1DA925192AE900AE9399;
+			remoteInfo = "N-Day-Challenges WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		941D1DC025192AEB00AE9399 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				941D1DAB25192AE900AE9399 /* N-Day-Challenges WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941D1DC425192AEB00AE9399 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				941D1D9C25192AE600AE9399 /* N-Day-Challenges WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		941D1D7125192AE200AE9399 /* N-Day-Challenges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "N-Day-Challenges.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		941D1D7425192AE200AE9399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		941D1D7625192AE200AE9399 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		941D1D7825192AE200AE9399 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		941D1D7B25192AE200AE9399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		941D1D7D25192AE500AE9399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		941D1D8025192AE500AE9399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		941D1D8225192AE500AE9399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		941D1D8725192AE600AE9399 /* N-Day-ChallengesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "N-Day-ChallengesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		941D1D8B25192AE600AE9399 /* N_Day_ChallengesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N_Day_ChallengesTests.swift; sourceTree = "<group>"; };
+		941D1D8D25192AE600AE9399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		941D1D9225192AE600AE9399 /* N-Day-ChallengesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "N-Day-ChallengesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		941D1D9625192AE600AE9399 /* N_Day_ChallengesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N_Day_ChallengesUITests.swift; sourceTree = "<group>"; };
+		941D1D9825192AE600AE9399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		941D1D9B25192AE600AE9399 /* N-Day-Challenges WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "N-Day-Challenges WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		941D1DA125192AE600AE9399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		941D1DA325192AE800AE9399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		941D1DA525192AE800AE9399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		941D1DAA25192AE900AE9399 /* N-Day-Challenges WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "N-Day-Challenges WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		941D1DAF25192AE900AE9399 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		941D1DB125192AE900AE9399 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		941D1DB325192AE900AE9399 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		941D1DB525192AE900AE9399 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		941D1DB725192AEB00AE9399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		941D1DB925192AEB00AE9399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		941D1DBA25192AEB00AE9399 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		941D1D6E25192AE200AE9399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941D1D8425192AE600AE9399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941D1D8F25192AE600AE9399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941D1DA725192AE900AE9399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		941D1D6825192AE100AE9399 = {
+			isa = PBXGroup;
+			children = (
+				941D1D7325192AE200AE9399 /* N-Day-Challenges */,
+				941D1D8A25192AE600AE9399 /* N-Day-ChallengesTests */,
+				941D1D9525192AE600AE9399 /* N-Day-ChallengesUITests */,
+				941D1D9F25192AE600AE9399 /* N-Day-Challenges WatchKit App */,
+				941D1DAE25192AE900AE9399 /* N-Day-Challenges WatchKit Extension */,
+				941D1D7225192AE200AE9399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		941D1D7225192AE200AE9399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				941D1D7125192AE200AE9399 /* N-Day-Challenges.app */,
+				941D1D8725192AE600AE9399 /* N-Day-ChallengesTests.xctest */,
+				941D1D9225192AE600AE9399 /* N-Day-ChallengesUITests.xctest */,
+				941D1D9B25192AE600AE9399 /* N-Day-Challenges WatchKit App.app */,
+				941D1DAA25192AE900AE9399 /* N-Day-Challenges WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		941D1D7325192AE200AE9399 /* N-Day-Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				941D1D7425192AE200AE9399 /* AppDelegate.swift */,
+				941D1D7625192AE200AE9399 /* SceneDelegate.swift */,
+				941D1D7825192AE200AE9399 /* ViewController.swift */,
+				941D1D7A25192AE200AE9399 /* Main.storyboard */,
+				941D1D7D25192AE500AE9399 /* Assets.xcassets */,
+				941D1D7F25192AE500AE9399 /* LaunchScreen.storyboard */,
+				941D1D8225192AE500AE9399 /* Info.plist */,
+			);
+			path = "N-Day-Challenges";
+			sourceTree = "<group>";
+		};
+		941D1D8A25192AE600AE9399 /* N-Day-ChallengesTests */ = {
+			isa = PBXGroup;
+			children = (
+				941D1D8B25192AE600AE9399 /* N_Day_ChallengesTests.swift */,
+				941D1D8D25192AE600AE9399 /* Info.plist */,
+			);
+			path = "N-Day-ChallengesTests";
+			sourceTree = "<group>";
+		};
+		941D1D9525192AE600AE9399 /* N-Day-ChallengesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				941D1D9625192AE600AE9399 /* N_Day_ChallengesUITests.swift */,
+				941D1D9825192AE600AE9399 /* Info.plist */,
+			);
+			path = "N-Day-ChallengesUITests";
+			sourceTree = "<group>";
+		};
+		941D1D9F25192AE600AE9399 /* N-Day-Challenges WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				941D1DA025192AE600AE9399 /* Interface.storyboard */,
+				941D1DA325192AE800AE9399 /* Assets.xcassets */,
+				941D1DA525192AE800AE9399 /* Info.plist */,
+			);
+			path = "N-Day-Challenges WatchKit App";
+			sourceTree = "<group>";
+		};
+		941D1DAE25192AE900AE9399 /* N-Day-Challenges WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				941D1DAF25192AE900AE9399 /* InterfaceController.swift */,
+				941D1DB125192AE900AE9399 /* ExtensionDelegate.swift */,
+				941D1DB325192AE900AE9399 /* NotificationController.swift */,
+				941D1DB525192AE900AE9399 /* ComplicationController.swift */,
+				941D1DB725192AEB00AE9399 /* Assets.xcassets */,
+				941D1DB925192AEB00AE9399 /* Info.plist */,
+				941D1DBA25192AEB00AE9399 /* PushNotificationPayload.apns */,
+			);
+			path = "N-Day-Challenges WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		941D1D7025192AE200AE9399 /* N-Day-Challenges */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 941D1DC525192AEB00AE9399 /* Build configuration list for PBXNativeTarget "N-Day-Challenges" */;
+			buildPhases = (
+				941D1D6D25192AE200AE9399 /* Sources */,
+				941D1D6E25192AE200AE9399 /* Frameworks */,
+				941D1D6F25192AE200AE9399 /* Resources */,
+				941D1DC425192AEB00AE9399 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				941D1D9E25192AE600AE9399 /* PBXTargetDependency */,
+			);
+			name = "N-Day-Challenges";
+			productName = "N-Day-Challenges";
+			productReference = 941D1D7125192AE200AE9399 /* N-Day-Challenges.app */;
+			productType = "com.apple.product-type.application";
+		};
+		941D1D8625192AE600AE9399 /* N-Day-ChallengesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 941D1DC825192AEB00AE9399 /* Build configuration list for PBXNativeTarget "N-Day-ChallengesTests" */;
+			buildPhases = (
+				941D1D8325192AE600AE9399 /* Sources */,
+				941D1D8425192AE600AE9399 /* Frameworks */,
+				941D1D8525192AE600AE9399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				941D1D8925192AE600AE9399 /* PBXTargetDependency */,
+			);
+			name = "N-Day-ChallengesTests";
+			productName = "N-Day-ChallengesTests";
+			productReference = 941D1D8725192AE600AE9399 /* N-Day-ChallengesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		941D1D9125192AE600AE9399 /* N-Day-ChallengesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 941D1DCB25192AEB00AE9399 /* Build configuration list for PBXNativeTarget "N-Day-ChallengesUITests" */;
+			buildPhases = (
+				941D1D8E25192AE600AE9399 /* Sources */,
+				941D1D8F25192AE600AE9399 /* Frameworks */,
+				941D1D9025192AE600AE9399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				941D1D9425192AE600AE9399 /* PBXTargetDependency */,
+			);
+			name = "N-Day-ChallengesUITests";
+			productName = "N-Day-ChallengesUITests";
+			productReference = 941D1D9225192AE600AE9399 /* N-Day-ChallengesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		941D1D9A25192AE600AE9399 /* N-Day-Challenges WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 941D1DC125192AEB00AE9399 /* Build configuration list for PBXNativeTarget "N-Day-Challenges WatchKit App" */;
+			buildPhases = (
+				941D1D9925192AE600AE9399 /* Resources */,
+				941D1DC025192AEB00AE9399 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				941D1DAD25192AE900AE9399 /* PBXTargetDependency */,
+			);
+			name = "N-Day-Challenges WatchKit App";
+			productName = "N-Day-Challenges WatchKit App";
+			productReference = 941D1D9B25192AE600AE9399 /* N-Day-Challenges WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		941D1DA925192AE900AE9399 /* N-Day-Challenges WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 941D1DBD25192AEB00AE9399 /* Build configuration list for PBXNativeTarget "N-Day-Challenges WatchKit Extension" */;
+			buildPhases = (
+				941D1DA625192AE900AE9399 /* Sources */,
+				941D1DA725192AE900AE9399 /* Frameworks */,
+				941D1DA825192AE900AE9399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "N-Day-Challenges WatchKit Extension";
+			productName = "N-Day-Challenges WatchKit Extension";
+			productReference = 941D1DAA25192AE900AE9399 /* N-Day-Challenges WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		941D1D6925192AE100AE9399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					941D1D7025192AE200AE9399 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					941D1D8625192AE600AE9399 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 941D1D7025192AE200AE9399;
+					};
+					941D1D9125192AE600AE9399 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 941D1D7025192AE200AE9399;
+					};
+					941D1D9A25192AE600AE9399 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					941D1DA925192AE900AE9399 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 941D1D6C25192AE100AE9399 /* Build configuration list for PBXProject "N-Day-Challenges" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 941D1D6825192AE100AE9399;
+			productRefGroup = 941D1D7225192AE200AE9399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				941D1D7025192AE200AE9399 /* N-Day-Challenges */,
+				941D1D8625192AE600AE9399 /* N-Day-ChallengesTests */,
+				941D1D9125192AE600AE9399 /* N-Day-ChallengesUITests */,
+				941D1D9A25192AE600AE9399 /* N-Day-Challenges WatchKit App */,
+				941D1DA925192AE900AE9399 /* N-Day-Challenges WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		941D1D6F25192AE200AE9399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941D1D8125192AE500AE9399 /* LaunchScreen.storyboard in Resources */,
+				941D1D7E25192AE500AE9399 /* Assets.xcassets in Resources */,
+				941D1D7C25192AE200AE9399 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941D1D8525192AE600AE9399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941D1D9025192AE600AE9399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941D1D9925192AE600AE9399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941D1DA425192AE800AE9399 /* Assets.xcassets in Resources */,
+				941D1DA225192AE600AE9399 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941D1DA825192AE900AE9399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941D1DB825192AEB00AE9399 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		941D1D6D25192AE200AE9399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941D1D7925192AE200AE9399 /* ViewController.swift in Sources */,
+				941D1D7525192AE200AE9399 /* AppDelegate.swift in Sources */,
+				941D1D7725192AE200AE9399 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941D1D8325192AE600AE9399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941D1D8C25192AE600AE9399 /* N_Day_ChallengesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941D1D8E25192AE600AE9399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941D1D9725192AE600AE9399 /* N_Day_ChallengesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941D1DA625192AE900AE9399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941D1DB425192AE900AE9399 /* NotificationController.swift in Sources */,
+				941D1DB625192AE900AE9399 /* ComplicationController.swift in Sources */,
+				941D1DB225192AE900AE9399 /* ExtensionDelegate.swift in Sources */,
+				941D1DB025192AE900AE9399 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		941D1D8925192AE600AE9399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 941D1D7025192AE200AE9399 /* N-Day-Challenges */;
+			targetProxy = 941D1D8825192AE600AE9399 /* PBXContainerItemProxy */;
+		};
+		941D1D9425192AE600AE9399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 941D1D7025192AE200AE9399 /* N-Day-Challenges */;
+			targetProxy = 941D1D9325192AE600AE9399 /* PBXContainerItemProxy */;
+		};
+		941D1D9E25192AE600AE9399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 941D1D9A25192AE600AE9399 /* N-Day-Challenges WatchKit App */;
+			targetProxy = 941D1D9D25192AE600AE9399 /* PBXContainerItemProxy */;
+		};
+		941D1DAD25192AE900AE9399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 941D1DA925192AE900AE9399 /* N-Day-Challenges WatchKit Extension */;
+			targetProxy = 941D1DAC25192AE900AE9399 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		941D1D7A25192AE200AE9399 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				941D1D7B25192AE200AE9399 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		941D1D7F25192AE500AE9399 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				941D1D8025192AE500AE9399 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		941D1DA025192AE600AE9399 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				941D1DA125192AE600AE9399 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		941D1DBB25192AEB00AE9399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		941D1DBC25192AEB00AE9399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		941D1DBE25192AEB00AE9399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PNS76KB97;
+				INFOPLIST_FILE = "N-Day-Challenges WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "joes.studio.N-Day-Challenges.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		941D1DBF25192AEB00AE9399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PNS76KB97;
+				INFOPLIST_FILE = "N-Day-Challenges WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "joes.studio.N-Day-Challenges.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		941D1DC225192AEB00AE9399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PNS76KB97;
+				IBSC_MODULE = N_Day_Challenges_WatchKit_Extension;
+				INFOPLIST_FILE = "N-Day-Challenges WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "joes.studio.N-Day-Challenges.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		941D1DC325192AEB00AE9399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PNS76KB97;
+				IBSC_MODULE = N_Day_Challenges_WatchKit_Extension;
+				INFOPLIST_FILE = "N-Day-Challenges WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "joes.studio.N-Day-Challenges.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		941D1DC625192AEB00AE9399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PNS76KB97;
+				INFOPLIST_FILE = "N-Day-Challenges/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "joes.studio.N-Day-Challenges";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		941D1DC725192AEB00AE9399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PNS76KB97;
+				INFOPLIST_FILE = "N-Day-Challenges/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "joes.studio.N-Day-Challenges";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		941D1DC925192AEB00AE9399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PNS76KB97;
+				INFOPLIST_FILE = "N-Day-ChallengesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "joes.studio.N-Day-ChallengesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/N-Day-Challenges.app/N-Day-Challenges";
+			};
+			name = Debug;
+		};
+		941D1DCA25192AEB00AE9399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PNS76KB97;
+				INFOPLIST_FILE = "N-Day-ChallengesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "joes.studio.N-Day-ChallengesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/N-Day-Challenges.app/N-Day-Challenges";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		941D1DCC25192AEB00AE9399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PNS76KB97;
+				INFOPLIST_FILE = "N-Day-ChallengesUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "joes.studio.N-Day-ChallengesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "N-Day-Challenges";
+			};
+			name = Debug;
+		};
+		941D1DCD25192AEB00AE9399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PNS76KB97;
+				INFOPLIST_FILE = "N-Day-ChallengesUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "joes.studio.N-Day-ChallengesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "N-Day-Challenges";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		941D1D6C25192AE100AE9399 /* Build configuration list for PBXProject "N-Day-Challenges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941D1DBB25192AEB00AE9399 /* Debug */,
+				941D1DBC25192AEB00AE9399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		941D1DBD25192AEB00AE9399 /* Build configuration list for PBXNativeTarget "N-Day-Challenges WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941D1DBE25192AEB00AE9399 /* Debug */,
+				941D1DBF25192AEB00AE9399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		941D1DC125192AEB00AE9399 /* Build configuration list for PBXNativeTarget "N-Day-Challenges WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941D1DC225192AEB00AE9399 /* Debug */,
+				941D1DC325192AEB00AE9399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		941D1DC525192AEB00AE9399 /* Build configuration list for PBXNativeTarget "N-Day-Challenges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941D1DC625192AEB00AE9399 /* Debug */,
+				941D1DC725192AEB00AE9399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		941D1DC825192AEB00AE9399 /* Build configuration list for PBXNativeTarget "N-Day-ChallengesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941D1DC925192AEB00AE9399 /* Debug */,
+				941D1DCA25192AEB00AE9399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		941D1DCB25192AEB00AE9399 /* Build configuration list for PBXNativeTarget "N-Day-ChallengesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941D1DCC25192AEB00AE9399 /* Debug */,
+				941D1DCD25192AEB00AE9399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 941D1D6925192AE100AE9399 /* Project object */;
+}
